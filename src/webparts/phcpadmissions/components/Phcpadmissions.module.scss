@@ -1,0 +1,67 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+.content{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  button{
+    display: none;
+  }
+}
+.phcpadmissions {
+  // display: grid; 
+  // grid-template-columns: 1fr 1fr; 
+  // grid-template-rows: 1fr; 
+  // gap: 0px 0px; 
+  // grid-template-areas: 
+  //   ". .";
+    
+  .welcomeImage{
+    width: 32px;
+    height: 32px;
+  }
+
+  .clockImage{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .react-multi-carousel-list{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: initial!important;
+  }
+
+}
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px -20px #A3A5AE;
+  padding: 30px;
+  margin: 20px;
+  border-top: 3px solid #549EF2;
+  background-color: #FAFAFA;
+  height: 210px;
+
+  
+  p {
+    color: #0f0f0f;
+  }
+
+  img {
+    float: right;
+  }
+  .clear{
+    clear: both;
+  }
+}

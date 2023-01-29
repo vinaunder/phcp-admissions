@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "phcpadmissions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/phcpadmissions/PhcpadmissionsWebPart.js",
+          "manifest": "./src/webparts/phcpadmissions/PhcpadmissionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PhcpadmissionsWebPartStrings": "lib/webparts/phcpadmissions/loc/{locale}.js"
+  }
+}

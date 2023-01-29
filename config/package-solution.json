@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "PHCP - Admissions",
+    "id": "5d9d1eca-be52-4396-b941-1e0c2d267e2c",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Vinicius Souza",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "WebPart to list admissions"
+      },
+      "longDescription": {
+        "default": "WebPart to list admissions"
+      },
+      "screenshotPaths": ["https://i.ibb.co/brpJ4Z9/screen.png"],
+      "videoUrl": "",
+      "categories": [],
+      "iconPath": "/assets/1453593.png"
+    },
+    "features": [
+      {
+        "title": "PHCP Admissions",
+        "description": "The feature that activates elements of the phcp-admissions solution.",
+        "id": "7473fb15-341f-45ab-afd5-2ea1f9ead577",
+        "version": "1.0.0.5"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/phcp-admissions.sppkg"
+  }
+}
